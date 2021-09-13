@@ -1,7 +1,5 @@
-'use strict';
+import React from 'react'
 
-module.exports = reactFooter;
+const Footer = ({ children }) => <p>{children}</p>
 
-function reactFooter() {
-    // TODO
-}
+export { Footer }

@@ -1,7 +1,4 @@
-'use strict';
+import { Button } from '@hasibhassan/react-button'
+import { Footer } from '@hasibhassan/react-footer'
 
-module.exports = reactUi;
-
-function reactUi() {
-    // TODO
-}
+export { Button, Footer }

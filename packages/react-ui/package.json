@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/hasibhassan/react-ui/issues"
   },
-  "homepage": "https://github.com/hasibhassan/react-ui#readme"
+  "homepage": "https://github.com/hasibhassan/react-ui#readme",
+  "dependencies": {
+    "@hasibhassan/react-button": "^0.0.0",
+    "@hasibhassan/react-footer": "^0.0.0"
+  }
 }
