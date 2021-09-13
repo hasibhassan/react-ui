@@ -1,7 +1,2 @@
-'use strict';
-
-module.exports = reactUiBuilder;
-
-function reactUiBuilder() {
-    // TODO
-}
+#!/usr/bin/env node
+console.log('hello')

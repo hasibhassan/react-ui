@@ -21,10 +21,14 @@
     "url": "git+https://github.com/hasibhassan/react-ui.git"
   },
   "scripts": {
+    "build": "react-ui-builder",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/hasibhassan/react-ui/issues"
   },
-  "homepage": "https://github.com/hasibhassan/react-ui#readme"
+  "homepage": "https://github.com/hasibhassan/react-ui#readme",
+  "devDependencies": {
+    "@hasibhassan/react-ui-builder": "^0.0.0"
+  }
 }
