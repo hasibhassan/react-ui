@@ -5,12 +5,20 @@
   "main": "index.js",
   "scripts": {
     "build": "lerna run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
   "author": "Hasib Hassan",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.4.0-alpha.34",
+    "@storybook/addon-essentials": "^6.4.0-alpha.34",
+    "@storybook/addon-links": "^6.4.0-alpha.34",
+    "@storybook/react": "^6.4.0-alpha.34",
+    "babel-loader": "^8.2.2",
     "lerna": "^4.0.0"
   }
 }
