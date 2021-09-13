@@ -10,7 +10,7 @@ module.exports = {
       (f) => f.test.toString() !== '/\\.css$/'
     )
 
-    // push custom rule
+    // push custom rule for css modules support
     config.module.rules.push({
       test: /\.css$/,
       use: [
@@ -28,7 +28,7 @@ module.exports = {
     // This is where we change the order of resolution of main fields
     config.resolve.mainFields = ['src', 'module', 'main']
 
-    // Return the altered config
+    // Return the new config
     return config
   },
 }
