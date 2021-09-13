@@ -6,11 +6,13 @@ const babel = require('@rollup/plugin-babel').default
 const postcss = require('rollup-plugin-postcss')
 
 const currentWorkingPath = process.cwd()
-const { main, name } = require(path.join(currentWorkingPath, 'package.json'))
+// Little refactor from where we get the code
+const { src, name } = require(path.join(currentWorkingPath, 'package.json'))
 
-const inputPath = path.join(currentWorkingPath, main)
+// build input path using the src
+const inputPath = path.join(currentWorkingPath, src)
 
-// Little workaround to get the package name without the scope
+// Little hack to just get the file name
 const fileName = name.replace('@hasibhassan/', '')
 
 // see below for details on the options
@@ -19,14 +21,17 @@ const inputOptions = {
   external: ['react'],
   plugins: [
     resolve(),
-    postcss({ modules: true }),
+    postcss({
+      // Key configuration
+      modules: true,
+    }),
     babel({
       presets: ['@babel/preset-env', '@babel/preset-react'],
       babelHelpers: 'bundled',
+      exclude: 'node_modules/**',
     }),
   ],
 }
-
 const outputOptions = [
   {
     file: `dist/${fileName}.cjs.js`,
@@ -39,7 +44,7 @@ const outputOptions = [
 ]
 
 async function build() {
-  // create the bundle
+  // create bundle
   const bundle = await rollup.rollup(inputOptions)
   // loop through the options and write individual bundles
   outputOptions.forEach(async (options) => {

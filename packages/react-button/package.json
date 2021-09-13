@@ -5,12 +5,15 @@
   "keywords": [],
   "author": "Hasib Hassan <67892792+hasibhassan@users.noreply.github.com>",
   "license": "ISC",
-  "main": "lib/react-button.js",
+  "main": "dist/react-button.cjs.js",
+  "module": "dist/react-button.esm.js",
+  "src": "lib/react-button.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
+    "dist",
     "lib"
   ],
   "publishConfig": {

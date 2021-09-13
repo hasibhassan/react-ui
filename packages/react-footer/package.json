@@ -5,12 +5,15 @@
   "keywords": [],
   "author": "Hasib Hassan <67892792+hasibhassan@users.noreply.github.com>",
   "license": "ISC",
-  "main": "lib/react-footer.js",
+  "main": "dist/react-footer.cjs.js",
+  "module": "dist/react-footer.esm.js",
+  "src": "lib/react-footer.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
   },
   "files": [
+    "dist",
     "lib"
   ],
   "publishConfig": {

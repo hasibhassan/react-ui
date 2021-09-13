@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "Hasib Hassan",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@storybook/addon-actions": "^6.4.0-alpha.34",
