@@ -6,7 +6,7 @@ const babel = require('@rollup/plugin-babel').default
 const postcss = require('rollup-plugin-postcss')
 
 const currentWorkingPath = process.cwd()
-// Little refactor from where we get the code
+// Refactor the source of the code
 const { src, name } = require(path.join(currentWorkingPath, 'package.json'))
 
 // build input path using the src
@@ -21,8 +21,8 @@ const inputOptions = {
   external: ['react'],
   plugins: [
     resolve(),
+    // CSS Modules configuration
     postcss({
-      // Key configuration
       modules: true,
     }),
     babel({
