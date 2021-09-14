@@ -32,6 +32,13 @@
   },
   "homepage": "https://github.com/hasibhassan/react-ui#readme",
   "devDependencies": {
-    "@hasibhassan/react-ui-builder": "^0.1.0"
+    "@hasibhassan/react-ui-builder": "^0.1.0",
+    "react": "^17.0.2"
+  },
+  "peerDependencies": {
+    "react": "17.x"
+  },
+  "dependencies": {
+    "clsx": "^1.1.1"
   }
 }
