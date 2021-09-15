@@ -1,11 +1,11 @@
-# `@hasibhassan/react-ui-builder`
+# @hasibhassan/react-ui-builder
 
-> TODO: description
+> Builder for the react-ui component library
 
 ## Usage
 
-```
-const reactUiBuilder = require('@hasibhassan/react-ui-builder');
+```js
+const reactUiBuilder = require('@hasibhassan/react-ui-builder')
 
 // TODO: DEMONSTRATE API
 ```
