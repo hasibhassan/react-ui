@@ -1,4 +1,4 @@
-# `@hasibhassan/react-button`
+# @hasibhassan/react-button
 
 > A button component for React
 
