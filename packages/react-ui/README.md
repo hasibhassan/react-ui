@@ -4,7 +4,7 @@
 
 ## Usage
 
-```
+```jsx
 import { ExampleComponent } from '@hasibhassan/react-ui'
 
 // TODO: DEMONSTRATE API
