@@ -1,11 +1,13 @@
 # `@hasibhassan/react-button`
 
-> TODO: description
+> A button component for React
 
 ## Usage
 
-```
-const reactButton = require('@hasibhassan/react-button');
+```jsx
+import { Button } from '@hasibhassan/react-ui'
+// or
+import Button from '@hasibhassan/react-button'
 
 // TODO: DEMONSTRATE API
 ```
