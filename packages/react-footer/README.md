@@ -1,11 +1,13 @@
-# `@hasibhassan/react-footer`
+# @hasibhassan/react-footer
 
-> TODO: description
+> A footer component for React
 
 ## Usage
 
-```
-const reactFooter = require('@hasibhassan/react-footer');
+```jsx
+import { Footer } from '@hasibhassan/react-ui'
+// or
+import Footer from '@hasibhassan/react-footer'
 
 // TODO: DEMONSTRATE API
 ```
