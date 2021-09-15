@@ -1,11 +1,11 @@
-# `@hasibhassan/react-ui`
+# @hasibhassan/react-ui
 
-> TODO: description
+> A UI library for React
 
 ## Usage
 
 ```
-const reactUi = require('@hasibhassan/react-ui');
+import { ExampleComponent } from '@hasibhassan/react-ui'
 
 // TODO: DEMONSTRATE API
 ```
