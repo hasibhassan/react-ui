@@ -1,6 +1,6 @@
 # @hasibhassan/react-ui-builder
 
-> Builder for the react-ui component library
+> A component library builder for react-ui
 
 ## Usage
 
