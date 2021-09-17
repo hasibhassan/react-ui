@@ -45,6 +45,11 @@
   line-height: 1.5rem;
 }
 
+.roundedBtn {
+  composes: button;
+  border-radius: 9999px;
+}
+
 .smBtnIcon {
   margin-left: -0.125rem;
   margin-right: 0.5rem;
@@ -85,9 +90,4 @@
   margin-right: -0.25rem;
   height: 1.25rem;
   width: 1.25rem;
-}
-
-.roundedBtn {
-  composes: button;
-  border-radius: 9999px;
 }

@@ -8,9 +8,6 @@ export default {
       options: ['small', 'default', 'large', 'xl'],
       control: { type: 'inline-radio' },
     },
-    // rounded: {
-    //   control: { type: boolean },
-    // },
   },
 }
 
