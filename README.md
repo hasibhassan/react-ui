@@ -11,7 +11,6 @@ npm install @hasibhassan/react-ui
 ## Usage
 
 ```jsx
-import React from 'react'
 import MyComponent from '@hasibhassan/react-ui'
 
 export const Example = () => {
