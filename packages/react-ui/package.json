@@ -33,7 +33,8 @@
   "homepage": "https://github.com/hasibhassan/react-ui#readme",
   "dependencies": {
     "@hasibhassan/react-button": "^0.1.0",
-    "@hasibhassan/react-footer": "^0.1.0"
+    "@hasibhassan/react-footer": "^0.1.0",
+    "@hasibhassan/react-signin": "^0.1.0"
   },
   "devDependencies": {
     "@hasibhassan/react-ui-builder": "^0.1.0"

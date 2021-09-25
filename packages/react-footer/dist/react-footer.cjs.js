@@ -10,7 +10,7 @@ var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
 var Footer = function Footer(_ref) {
   var children = _ref.children;
-  return /*#__PURE__*/React__default['default'].createElement("p", null, children);
+  return /*#__PURE__*/React__default["default"].createElement("p", null, children);
 };
 
 exports.Footer = Footer;
