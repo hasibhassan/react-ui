@@ -39,6 +39,7 @@
     "react": "17.x"
   },
   "dependencies": {
-    "clsx": "^1.1.1"
+    "clsx": "^1.1.1",
+    "react-icons": "^4.2.0"
   }
 }
