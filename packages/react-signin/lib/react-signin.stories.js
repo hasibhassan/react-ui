@@ -1,8 +1,8 @@
-import SignIn from './react-signin'
+import SignIn from "./react-signin";
 
 export default {
-  title: 'Sign In',
+  title: "Sign In",
   component: SignIn,
-}
+};
 
-export const Primary = {}
+export const Primary = {};

@@ -1,5 +1,7 @@
-'use strict';
+"use strict";
 
-const reactSignin = require('..');
+const reactSignin = require("..");
 
-describe('@hasibhassan/react-signin', () => { it('needs tests'); });
+describe("@hasibhassan/react-signin", () => {
+  it("needs tests");
+});
