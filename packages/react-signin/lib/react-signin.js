@@ -34,41 +34,36 @@ export default function SignIn() {
                 Password
               </label>
               <input
-                id="password"
-                name="password"
-                type="password"
-                autoComplete="current-password"
-                required
-                className={styles.password}
-                placeholder="Password"
-              />
-            </div>
+  id = "password"
+  name = "password"
+  type = "password"
+  autoComplete = "current-password"
+  required
+  className = {styles.password} placeholder =
+      "Password" / > </div>
           </div>
-          <div className={styles.aboveSubmitContainer}>
-            <div className={styles.rememberMeContainer}>
-              <input
-                id="remember-me"
-                name="remember-me"
-                type="checkbox"
-                className={styles.rememberMe}
-              />
+      <div className = {styles.aboveSubmitContainer}>
+      <div className = {styles.rememberMeContainer}>< input
+  id = "remember-me"
+  name = "remember-me"
+  type = "checkbox"
+  className =
+  {
+    styles.rememberMe
+  } />
               <label htmlFor="remember-me" className={styles.rememberMeLabel}>
                 Remember Me
-              </label>
-            </div>
+              </label >
+      </div>
             <div className={styles.forgotPasswordContainer}>
               <a href="#" className={styles.forgotPasswordLink}>
                 Forgot your password?
               </a>
-            </div>
-          </div>
-          <div>
-            <button type="submit" className={styles.submitButton}>
-              Sign In
-            </button>
-          </div>
-        </form>
       </div>
-    </div>
+          </div><div>
+      <button type = "submit" className = {styles.submitButton}>Sign
+          In</button>
+          </div></form>
+      </div>< /div>
   )
 }
