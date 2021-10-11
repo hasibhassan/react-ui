@@ -1,4 +1,4 @@
-# React UI [![NPM](https://img.shields.io/npm/v/@hasibhassan/react-ui.svg)](https://www.npmjs.com/package/@hasibhassan/react-ui) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+# React UI [![NPM](https://img.shields.io/npm/v/@hasibhassan/react-ui.svg)](https://www.npmjs.com/package/@hasibhassan/react-ui)
 
 > A React component library to get started building UIs
 
