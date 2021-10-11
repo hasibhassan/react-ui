@@ -6,7 +6,11 @@ export default function SignIn() {
     <div className={styles.container}>
       <div className={styles.formContainer}>
         <div>
-          <img className={styles.logo} src="logo.svg" alt="Vision" />
+          <img
+            className={styles.logo}
+            src="../../../public/logo.svg"
+            alt="Vision"
+          />
           <h2 className={styles.heading}>Sign in to your account</h2>
           <p className={styles.signUpLinkText}>
             <a href="#">Need an account?</a>
