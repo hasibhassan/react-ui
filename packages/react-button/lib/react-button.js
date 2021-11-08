@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './react-button.module.css'
 import clsx from 'clsx'
 
-export default function Button({ label, size, isRounded, color }) {
+export default function Button({ label, size, isRounded, color, onClick }) {
   const classes = clsx(styles.button, {
     [styles.smBtn]: size === 'small',
     [styles.lgBtn]: size === 'large',
@@ -11,5 +11,9 @@ export default function Button({ label, size, isRounded, color }) {
     [styles.buttonRed]: color === 'red',
   })
 
-  return <button className={classes}>{label}</button>
+  return (
+    <button className={classes} onClick={onClick}>
+      {label}
+    </button>
+  )
 }

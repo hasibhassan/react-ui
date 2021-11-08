@@ -46,7 +46,7 @@ function SignIn() {
     className: styles.formContainer
   }, /*#__PURE__*/React__default["default"].createElement("div", null, /*#__PURE__*/React__default["default"].createElement("img", {
     className: styles.logo,
-    src: "logo.svg",
+    src: "../../../public/logo.svg",
     alt: "Vision"
   }), /*#__PURE__*/React__default["default"].createElement("h2", {
     className: styles.heading

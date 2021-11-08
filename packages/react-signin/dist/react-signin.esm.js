@@ -40,7 +40,7 @@ function SignIn() {
     className: styles.formContainer
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("img", {
     className: styles.logo,
-    src: "logo.svg",
+    src: "../../../public/logo.svg",
     alt: "Vision"
   }), /*#__PURE__*/React.createElement("h2", {
     className: styles.heading
